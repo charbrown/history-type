@@ -1,0 +1,266 @@
+/*------css reset--------*/
+*{
+  padding:0.5;
+  margin:0;
+  font-size:105%;
+  line-height:1.5em;
+}
+
+/*----- main styling ------*/
+body
+   {
+     font-family:'open sans', Sans;
+     width:70%;
+     max-width;800px;
+     margin: auto;
+     background:#ffff00;
+     color:#333;
+   }
+/*----- typography -------*/
+h1
+  {
+    font-weight: normal;
+    color:#333;
+    text-align: center;
+    font-family:"arial", sans-serif;
+    font-size:150%;
+    margin-top: 3em;
+  }
+
+h2
+  {
+   font-weight: normal;
+   color:#333;
+   text-align:center;
+   font-family:"arial", sans-serif;
+   font-size:125%;
+  }
+  /*---- Navigation -----*/
+  nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    margin:0;
+    width: 100%;
+    background-color: #000000;
+    padding: 1em ;
+    font-size: 0.75em;
+    }
+
+  nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 20px;
+    }
+
+  nav a:link {
+    color:#fafafa;
+    }
+
+    nav a:visited {
+      color:#fafafa;
+    }
+
+  nav a:hover{
+    background-bottom: none;
+    color: #ffD700;
+  }
+/*-----Table Styling------*/
+table {
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+caption {
+  margin-bottom:1.5em;
+  text-transform: italic;
+}
+
+th {
+  color: #ffD700;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  background: #000000;
+}
+
+th, td {
+  padding: 0.5em;
+}
+
+table, td {
+  background: #FFD700;
+  border: 1px solid #ffff00;
+}
+/*------ Image styling --------*/
+#nj {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0;
+  border:5px solid black;
+}
+
+#cg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0;
+  border:5px solid black;
+}
+
+#gb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0;
+  border:5px solid black;
+}
+
+#wc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0;
+  border:5px solid black;
+}
+
+#jb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0;
+  border:5px solid black;
+}
+
+
+/*------ Icon styling -------*/
+.connnections {
+  position: relative;
+  margin: 0 auto;
+}
+
+.connections ul {
+  margin: 0;
+  padding: 0;
+}
+
+.connections li {
+  margin: 0 15px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.connections a:link {
+  border-bottom: none;
+}
+
+.connections img{
+  opacity: 0.5;
+  border: none;
+}
+
+.connections a:hover img{
+  opacity: 1.0;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/*----- media queries -------*/
+/*------ Tablet-------*/
+@media (max-width: 50em) {
+  body {
+    width:85%
+  }
+
+  header p, article {
+    width:95%
+    padding: 0.5em;
+  }
+
+  article {
+    flex-flow: column;
+    flex-direction: column;
+  }
+
+  section {
+    width: 90%
+  }
+
+  .aside {
+    border-left:none;
+    margin: 0;
+    padding-left: 1em;
+  }
+
+  nav {
+    width: 100%;
+    font-size: 70%;
+    padding: 0em;
+  }
+}
+/*----- smartphone------*/
+@media (max-width: 35em) {
+  body {
+    margin: auto 0;
+    width: 100%;
+    font-size:115%;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px;
+    padding: 0em ;
+  }
+
+  table {
+    font-size:90%}
+
+    article {
+      width:90%;
+    }
+
+    h1 {
+    font-size: 3em;
+  line-height: 1.3}
+
+  blockquote {
+    font-size: 1.25em
+    padding: 0;
+    line-height: 1.6em;
+  }
+
+  hgroup h2 {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+  }
+
+  nav {
+    width: 100%;
+    font-size: 60%;
+    padding: 0em;
+  }
+}
+  /*----- footer ------*/
+
+  footer
+       {
+         text-align:center;
+         font-size:65%;
+         padding:2em 0 4em;
+       }
